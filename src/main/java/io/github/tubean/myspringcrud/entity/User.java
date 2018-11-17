@@ -3,6 +3,7 @@ package io.github.tubean.myspringcrud.entity;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "user")
 public class User {
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
